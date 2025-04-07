@@ -1,0 +1,39 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="style.css">
+    <title>Login Page</title>  
+</head>  
+<body>
+    <!-- Musik latar autoplay -->
+    <!--<audio autoplay loop hidden>
+        <source src="narutotheme.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>-->
+
+    <div class="container">
+        <!-- Image-section -->
+        <div class="image-section">
+            <img src="narusasu.jpg" alt="Banner">
+        </div>
+
+        <!-- Login box -->
+        <div class="login-section fade-in" id="loginBox">
+            <img src="naruto chibi.png" alt="Logo" class="logo">
+            <h2>Sign into your account Naruto Shippuden</h2>
+            <form action="login.php" method="POST">
+                <input type="text" name="username" placeholder="Username..." required>
+                <input type="password" name="password" placeholder="***************" required>
+                <button type="submit">Login</button>
+            </form>
+            <p class="help">Butuh bantuan? hubungi <a href="#">admin</a></p>
+        </div>
+    </div>
+
+    <!-- Animasi fade-in -->
+    <script src="login.js"></script>
+</body>
+
+</html>

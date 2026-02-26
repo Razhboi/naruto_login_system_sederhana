@@ -25,3 +25,9 @@ jobs:
 
     - name: Success message
       run: echo "✅ CI sukses! Naruto Login System aman."
+
+    - name: Deploy Simulation
+      run: |
+        echo "🚀 Deploying Naruto Login System..."
+        echo "📦 Uploading files to production server..."
+        echo "✅ Deployment success (simulation)"
